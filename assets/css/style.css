@@ -1,0 +1,83 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+html {
+	height:100%;
+}
+
+img {
+	width:140px;
+	height:140px;
+	margin: 10px auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+button {
+	border-radius: 50%;
+	color: black;
+	background-color: white;
+	font-size: 24px;
+	padding: 5px 25px;
+	border:none;
+}
+
+button:hover {
+	color: white;
+	background-color: black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url("../fonts/pokesolid.ttf") format("truetype");
+}
+
+.box {
+	width:200px;
+	height:200px;
+	font-size: 14px;
+}
+
+#enemy {
+	background-color: none;
+	border:none;
+	text-align: justify;
+	font-size:18px;
+}
+
+#player {
+	background-color: none;
+	border:none;
+	text-align: justify;
+	font-size:18px;
+}
+
+.options {
+	background-image: url("../images/PokeBall.png");
+	background-repeat: no-repeat;
+	background-size: 200px;
+	font-family: "pokemon hollow";
+	padding-top: 20px;
+}
+
+.options img {
+	opacity: .75;
+}
+
+.options img:hover {
+	opacity:1;
+}
+
+#pokemon img{
+	width: 40%;
+}
+.col-md-3 {
+	display:inline-block;
+	min-height:200px;
+}
